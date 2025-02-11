@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+  }
+  .sect {
+    width: 100%;
+    min-height: 50px;
+  }
+  
+  
+
+  video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:400%;
+    z-index: -1;
+  }
+
+
+/* Encabezado */
+.encabezado {
+    position:absolute;
+    right:1px;
+    width:1535px;
+    height:180px;
+    }
+    #logo{
+    position:relative;
+    left:100px;
+    top:10px;
+    width:160p ;
+    height:160px;
+    }
+    
+    #imglogo{
+    position:relative;
+    left:5px;
+    top:5px;
+    Width:150px;
+    height: 150px;
+    }
+    
+    .navegacion{
+    width:900px;
+    height:120px;
+    position:absolute;
+    bottom:5px;
+    left:700px;
+    font-family: monospace;
+    }
+    
+    .navegacion ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+    
+    .navegacion ul li{
+    list-style:none;
+    margin-left:95px;
+    margin-top:20pX;
+    font-size:20px;
+    }
+    
+    
+    .navegacion ul li a{
+    text-decoration:none;
+    color :black;
+    font-family:Arial;
+    font-weight:bold;
+    transition:0.5s ease=in-out;
+    }
+    
+    
+    .navegacion ul li a:hover{
+    color: #ffffff;
+    background-color :#ffb1e4;
+    
+    }
+    
+    .registro{
+    width:110px;
+    height:110px;
+    position:relative;
+    bottom:210px;
+    left :1400px;
+    }
+    
+    #imgregistro{
+    position:relative;
+    left:2px;
+    top:2px;
+    width:100px;
+    height:100px;
+    }
+    
+    /* Menu de Comida */
+    #Menu{
+    position:relative;
+    top:170px;
+    left :10px;
+    width:1500px;
+    height:1060px;
+    }
+      
+    #content3{
+    position:absolute;
+    left:500px;
+    top:180px;
+    width:700px;
+    height:5px;
+    }
+    
+    .card{
+    position:absolute;
+    top:50%;
+    left:32%;
+    transform:translate( -59%, -59%);
+    width:340px;
+    height:480px;
+    
+    background-color :#dcdbdbaa;
+    margin:62px;
+    }
+    
+    .face{
+    position:absolute;
+    width:100%;
+    height:108%;
+    overflow:hidden;
+    backface-visibility:hidden;
+    border-radius:15px;
+    transition:1s;
+    }
+    
+    
+    img{
+    width:100%;
+    height:100%;
+    }
+    
+    .front{
+    transform:perspective( 600px) retatey (0deg);
+    box-shadow:0 8px 10px rgb(230, 227, 227);
+    margin-top: center ;
+    margin-right:center ;
+    margin-bottom: center;
+    margin-left:center ;
+    }
+    
+    .back{
+    position:absolute;
+    transform:perspective(600px) rotatey(180deg);
+    background-color: rgb(158, 191, 242);
+    color: black;
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    text-align:center;
+    box-shadow: 0 12px 10px #c8c7c2;
+    margin-top: -20px ;
+    margin-right:40px ;
+    margin-bottom: 10px;
+    margin-left:15px ;
+    max-width:280px;
+    }
+    
+    .card:hover .front{
+    transform:perspective(600px) rotateY(180deg);
+    }
+    
+    .card:hover .back{
+    transform:perspective(600px) rotateY(360deg);
+    
+    }
+    .lin{
+    border-top:solid 1px rgb(0, 0, 0);
+    padding-top:25px;
+    }
+    
+    .audio{
+        position: relative;
+        left: 600px;
+height: 500px;
+top: 540px;
+    }
+    
+    .a{
+    color :#121212;
+    font-size:18px;
+    text-decoration:none;
+    }
